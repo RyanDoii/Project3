@@ -1,0 +1,210 @@
+[
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "What word is often abbreviated as Fn on a keyboard?",
+    "correctAnswer": "Function",
+    "options": [
+      "Copy",
+      "Paste",
+      "Back",
+      "Function"
+    ],
+    "reason":"Fn is short for function"
+  },
+  {
+    "questionType": "multiple_list",
+    "questionInfo": "print(5*2)",
+    "correctAnswer": "10",
+    "answerFieldId": "answer_to_question",
+    "options": [
+      "5",
+      "6",
+      "25",
+      "20"
+    ],
+    "reason":".2 defines the precision of the floating point number."
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "In the last year more than 250 billion PDFs were opened using products from what highly successful creative software company?",
+    "correctAnswer": "Adobe",
+    "options": [
+      "Davinci",
+      "Adobe",
+      "Discord",
+      "Microsoft Office"
+    ],
+    "reason":"Adobe is a very popular company, with many programs, including some that open PDF"
+  },
+  {
+    "questionType": "true_false",
+    "questionInfo": "Is the correct syntax for printing System.out.println()",
+    "correctAnswer": "True",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason": "Correct Syntax is System.out.println()"
+  },  
+  {
+    "questionType": "true_false",
+    "questionInfo": "An array list doesnt have a fix list",
+    "correctAnswer": "True",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason": "Array does not have a limit"
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "Inside which HTML element do we put the JavaScript?",
+    "correctAnswer": "<script>",
+    "options": [
+      "<js>",
+      "<script>",
+      "<scripting>",
+      "<javascript>"
+    ],
+    "reason": "<script> is the correct tag"
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "JavaScript File Has An Extension of:",
+    "correctAnswer": ".Js",
+    "options": [
+      ".xml",
+      ".Java",
+      ".javascript",
+      ".Js"
+    ],
+    "reason":".Js is the correct entension."
+  },
+  {
+    "questionType": "true_false",
+    "questionInfo": "A array doesnt have a fix list",
+    "correctAnswer": "False",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason": "Array is assign a fix list in the beginning of a program"
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "Which of the following keywords is used to define a variable in Javascript?",
+    "correctAnswer": "Both A and B",
+    "options": [
+      "var",
+      "let",
+      "Both A and B",
+      "None of the above"
+    ],
+    "reason": "both var and let can be used to describe"
+  },
+  {
+    "questionType": "text_input",
+    "questionInfo": "Which of the following methods is used to access HTML elements using Javascript?",
+    "correctAnswer": "getElementById() and getElementsbyClassName() ",
+    "answerFieldId": "answer_to_question",
+    "reason": "They can both be used"
+  },
+  {
+    "questionType": "true_false",
+    "questionInfo": "Java is a type of programming language",
+    "correctAnswer": "True",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason":"Java is a program that is used for programing for over 30 years"
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "Which among the following correctly defines the term cookie?",
+    "correctAnswer": "It is a message given to a web browser by a web server",
+    "options": [
+      "It is a message given to a web browser by a web server",
+      "It is a password stored by web server",
+      "It is virus that corrupts other web file",
+      "It is intentionally created deceptive message that collects user’s personal information"
+    ],
+    "reason": "The browser stores the message (i.e. cookie) in a text file."
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionInfo": "Which of the following methods can be used to display data in some form using Javascript?",
+    "correctAnswer": "All of the above",
+    "options": [
+      "All of the above",
+      "console.log()",
+      "window.alert()",
+      "document.write()"
+    ],
+    "reason": "They can all be used"
+  },
+  {
+    "questionType": "multiple_list",
+    "questionInfo": "What is called when a function is defined inside a class?",
+    "correctAnswer": "Method",
+    "answerFieldId": "answer_to_question",
+    "options": [
+      "class",
+      "package",
+      "Array",
+      "Method"
+    ],
+    "reason":"functions are defined in a method whether it is public or private"
+  },
+  {
+    "questionType": "text_input",
+    "questionInfo": "How can a datatype be declared to be a constant type?",
+    "correctAnswer": "const ",
+    "answerFieldId": "answer_to_question",
+    "reason": "Using const would be the correct declaration"
+  },
+  {
+    "questionType": "true_false",
+    "questionInfo": "the use of the <noscript> tag in Javascript is when the contents are displayed in non-js based browsers",
+    "correctAnswer": "true",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason":"This is the <noscript> tage"
+  },
+  {
+    "questionType": "text_input",
+    "questionInfo": "What is a file?",
+    "correctAnswer": "A file is a named location which stores data or information permanently.",
+    "answerFieldId": "answer_to_question",
+    "reason":"A file is a named location which stores data or information permanently. A file is always stored inside a storage device using file name (e.g. STUDENT.MARKS). A file name normally has primary and secondary name separated by a “.”(DOT)."
+  },
+  {
+    "questionType": "true_false",
+    "questionInfo": " The ‘P’ in CPU stands for process",
+    "correctAnswer": "True",
+    "options": [
+      "False",
+      "True"
+    ],
+    "reason": "CPU stands for central process unit"
+  },
+  {
+    "questionType": "text_input",
+    "questionInfo": " What is a class?",
+    "correctAnswer": "A class is a blueprint from which objects are created.",
+    "answerFieldId": "answer_to_question",
+    "reason": "A class is a blueprint from which objects are created. A class contains methods and variables associated with an instance of a class."
+  },
+  {
+    "questionType": "true_false",
+    "questioninfo": "Cs stands for computer school",
+    "correctAnswer": "False",
+    "options": [
+      "True",
+      "False"
+    ],
+    "reason":"Computer science was given the nickname cs"
+  }
+]
