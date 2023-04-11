@@ -1,7 +1,5 @@
 <html>
-
 <head>
- 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -9,14 +7,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-
-  
-  <link rel="stylesheet" href="design.css" />
- 
+  <link rel="stylesheet" href="style.css" />
   <script src="code.js"> </script>
-
 </head>
-
 <body>
   <div>
     <div>
@@ -39,14 +32,12 @@
   </div>
 </body>
 
-
-
 <script id="intro_view" type="text/x-handlebars-template">
-    <div class="jumbotron text-center" >
-      <h1> CUS Quiz </h1>
+    <div class="">
+      <h1>Single Page Application Quiz</h1>
     </div>
       <div>
-          <label> Please enter First and Last Name: </label> <input id = "name" placeholder="Please type enter in your name" type="text">
+          <label>First and Last Name: </label> <input id = "name" placeholder="Enter Name" type="text">
           <button id="submit-btn" onclick="f1();startstopClock();" data-action="{{this.action}}">{{this.action}}</button>
       </div>
       <div>
@@ -54,16 +45,15 @@
           <p>Please choose a quiz that you wish to start</p>
           <input class ="hidden radio-label" type="radio" onclick="f1()"  name="quiz" id = "quiz">
           <label class = "button-label" for="quiz">
-            Quiz #1
+            Quiz1
           </label>
           <input class ="hidden radio-label" type="radio" onclick="f1()" name="quiz2" id = "quiz2">
           <label class = "button-label" for="quiz2">
-            Quiz #2
+            Quiz2
         </label>
       </div>
     </div>
   </script>
- 
  
  <script id="feedback_correct" type="text/x-handlebars-template">
     <div class="container">
@@ -119,16 +109,16 @@
         </div>
           <div>
           <div class="choice">
-            <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[0]}}">{{this.options.[0]}}</button>
-            <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[1]}}">{{this.options.[1]}}</button>
-            <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[2]}}">{{this.options.[2]}}</button>
-            <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[3]}}">{{this.options.[3]}}</button>
+        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[0]}}">{{this.options.[0]}}</button>
+      <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[1]}}">{{this.options.[1]}}</button>
+        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[2]}}">{{this.options.[2]}}</button>
+        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[3]}}">{{this.options.[3]}}</button>
           </div>
         </div>
           <br>
           <div>
             <button class="btn btn-danger float-right" data-action="submit">Submit Answer</button>
-          </div>
+     </div>
       </div>
     </div>
   </script>
@@ -141,10 +131,10 @@
     </div>
       <div style="text-align:center;">
       <div class="choice">
-        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[0]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[0]}}"></button>
-        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[1]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[1]}}"></button>
-        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[2]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[2]}}"></button>
-        <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[3]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[3]}}"></button>
+       <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[0]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[0]}}"></button>
+    <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[1]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[1]}}"></button>
+       <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[2]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[2]}}"></button>
+     <button class="button-label" id="choice" name="choice" data-action="answer" data-answer="{{this.options.[3]}}"><img style="max-width: 150px;" data-action="answer" data-answer="{{this.options.[0]}}" src="{{this.options.[3]}}"></button>
       </div>
     </div>
       <br>
@@ -161,14 +151,14 @@
           <div class="col">
             <div>
               <h2>{{this.questionInfo}}</h2>
-              <select id=list>
-                <option data-action="answer" value="{{this.options.[0]}}" data-answer="{{this.options.[0]}}">{{this.options.[0]}}</option>
+          <select id=list>
+          <option data-action="answer" value="{{this.options.[0]}}" data-answer="{{this.options.[0]}}">{{this.options.[0]}}</option>
                 <option data-action="answer" value="{{this.options.[1]}}" data-answer="{{this.options.[1]}}">{{this.options.[1]}}</option>
-                <option data-action="answer" value="{{this.options.[2]}}" data-answer="{{this.options.[2]}}">{{this.options.[2]}}</option>
-                <option data-action="answer" value="{{this.options.[3]}}" data-answer="{{this.options.[3]}}">{{this.options.[3]}}</option>
-              </select>
+           <option data-action="answer" value="{{this.options.[2]}}" data-answer="{{this.options.[2]}}">{{this.options.[2]}}</option>
+              <option data-action="answer" value="{{this.options.[3]}}" data-answer="{{this.options.[3]}}">{{this.options.[3]}}</option>
+          </select>
               <button class="btn btn-danger float-right" data-action="submit">Submit Answer</button>
-            </div>
+           </div>
           </div>
         </div>
       </div>
